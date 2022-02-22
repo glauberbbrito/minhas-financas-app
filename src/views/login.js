@@ -18,7 +18,7 @@ class Login extends React.Component{
         return(
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6" style={ {possition: 'relative', left: '300px'} }>
+                    <div className="col-md-6" style={ {position: 'relative', left: '300px'} }>
                         <div className="bs-docs-section">
                             <Card title="Login">
                                 <div className="row">
@@ -30,6 +30,7 @@ class Login extends React.Component{
                                                         value={this.state.email}
                                                         onChange={e => this.setState({email: e.target.value})} 
                                                         className="form-control"
+                                                        id="exampleInputEmail1"
                                                         aria-describedby="emailHelp"
                                                         placeholder="Digite o Email"/>
                                                 </FormGroup>
